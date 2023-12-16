@@ -1,0 +1,17 @@
+{
+    "manifest_version":3,
+    "name":"Mophat.Dev",
+    "icons":{
+        "32":"icon32.png"
+    },
+    "permissions":["scripting"],
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+
+    ],
+    "action":{
+        "default_popup":"index.html"
+    },
+    "version":"1.0.0"
+}
